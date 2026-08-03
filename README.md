@@ -1,117 +1,241 @@
-# Saurabh Nishad — Portfolio
+<h1 align="center">Hi 👋, I'm Saurabh Nishad</h1>
 
-Premium single-page portfolio for Saurabh Nishad: Embedded Architect, IoT Product Developer, and Hardware-Firmware Innovator.
+<h3 align="center">
+Embedded AI Architect • Edge AI • Embedded Linux • Automotive • Connected Devices
+</h3>
 
-**Live:** [saurabh-nishad.github.io/saurabh_portfolio](https://saurabh-nishad.github.io/saurabh_portfolio/)  
-**GitHub:** [github.com/saurabh-nishad](https://github.com/saurabh-nishad)
+<p align="center">
+Building intelligent embedded products by combining <b>Electronics</b>, <b>Firmware</b>,
+<b>Computer Vision</b>, <b>Voice AI</b>, and <b>Cloud Connectivity</b>.
+</p>
 
-## Requirements
+<p align="center">
+<a href="https://github.com/saurabh-nishad">
+<img src="https://komarev.com/ghpvc/?username=saurabh-nishad&label=Profile%20Views&color=blue&style=for-the-badge"/>
+</a>
+</p>
 
-- **Node.js 18+** (the `Cannot find module 'node:fs'` error is from an older Node; use 18 or 20)
-  - Check: `node -v`
-  - Using nvm: `nvm install` then `nvm use` (see `.nvmrc`)
+---
 
-## Stack
+# 🚀 About Me
 
-- **Next.js 14** (App Router, static export)
-- **TypeScript**
-- **Tailwind CSS**
+I'm an **Embedded AI Architect** with **9+ years** of experience building next-generation products across:
 
-## Run locally
+- 🚗 Automotive Embedded Systems
+- 🤖 Edge AI
+- 🎙️ Voice AI
+- 📷 AI Camera
+- 🧠 Neurotechnology
+- 📡 Connected IoT Devices
+- 🛰️ Asset Tracking
+- 🎧 Smart Wearables
 
-```bash
-npm install
-npm run dev
-```
+I enjoy solving difficult engineering problems by combining:
 
-Open [http://localhost:3000](http://localhost:3000).
+> Hardware + Firmware + Embedded Linux + AI + Cloud
 
-## Build (static export for GitHub Pages)
+---
 
-```bash
-npm run build
-```
+# 💡 Currently Working On
 
-Output is in the `out/` folder. To preview: `npx serve out` then open the URL shown.
+### 🚗 Automotive
 
-## How to host on GitHub (step-by-step)
+- CAN / CAN-FD
+- OBDII Diagnostics
+- Embedded Telematics
+- Fleet Intelligence
 
-### Step 1: Install Node.js 18 or newer
+### 🤖 Edge AI
 
-- Check your version: run `node -v` in a terminal.
-- If it’s below 18, install from [nodejs.org](https://nodejs.org/) (LTS) or with nvm: `nvm install 18` then `nvm use 18`.
+- TinyML
+- TensorFlow Lite
+- STM32Cube.AI
+- AI Optimization
 
-### Step 2: Create a new repository on GitHub
+### 🎙️ Voice AI
 
-1. Go to [github.com](https://github.com) and sign in.
-2. Click the **+** (top right) → **New repository**.
-3. Set **Repository name** to `portfolio` (or any name you like; the site URL will be `https://<username>.github.io/<repo-name>/`).
-4. Leave it **Public**. Do **not** add a README, .gitignore, or license (you already have these).
-5. Click **Create repository**.
+- Wake Word Detection
+- Keyword Spotting
+- Picovoice
+- Audio DSP
 
-### Step 3: Push your project to GitHub
+### 📷 Computer Vision
 
-In a terminal, go to your project folder and run (replace `saurabh-nishad` with your GitHub username if different):
+- Qualcomm QCS6490
+- Face Detection
+- Face Recognition
+- OpenCV
+- AI Camera
 
-```bash
-cd /home/saurabh/Workspace/git_project/portfolio
+### 🎧 Smart Wearables
 
-# If this folder is not a git repo yet:
-git init
-git add .
-git commit -m "Initial commit: portfolio site"
+- Neurofeedback
+- Biosignal Processing
+- Sensor Fusion
+- BLE
+- DSP
 
-# Add your GitHub repo as remote (use your repo URL)
-git remote add origin https://github.com/saurabh-nishad/portfolio.git
+---
 
-# Push (this repo uses master as the default branch)
-git branch -M master
-git push -u origin master
-```
+# 🔬 Featured Projects
 
-If you already have a git repo and only need to add the remote:
+## 🧠 Neurofeedback Headphones
 
-```bash
-git remote add origin https://github.com/saurabh-nishad/portfolio.git
-git push -u origin master
-```
+Intelligent wearable platform integrating
 
-### Step 4: Turn on GitHub Pages
+- Edge AI
+- Biosignal Processing
+- BLE
+- Audio DSP
+- Adaptive Neurostimulation
 
-1. On GitHub, open your repo (e.g. `github.com/saurabh-nishad/portfolio`).
-2. Click **Settings** (tab at the top).
-3. In the left sidebar, click **Pages** (under “Code and automation”).
-4. Under **Build and deployment**, set **Source** to **GitHub Actions** (not “Deploy from a branch”).
-5. Save if needed. You don’t need to create a workflow yourself; the repo already has `.github/workflows/deploy.yml`.
+---
 
-Alternative for the first deployment: add a repository secret named `PAGES_DEPLOY_TOKEN` and the workflow can try to enable Pages automatically.
+## 🎙️ Voice Keyword Detection
 
-- Create a Personal Access Token or fine-grained token with repository administration/pages write access.
-- In GitHub, open **Settings** → **Secrets and variables** → **Actions** → **New repository secret**.
-- Name it `PAGES_DEPLOY_TOKEN`.
-- If this secret is not present, you must enable Pages manually in **Settings** → **Pages** before the workflow can pass the `actions/configure-pages` step.
+On-device AI inference using
 
-### Step 5: Run the deployment
+- STM32H7
+- Picovoice
+- TensorFlow Lite
+- TinyML
 
-- Every push to the `master` branch will build and deploy the site.
-- You can also trigger it once: go to the **Actions** tab → select **Deploy to GitHub Pages** → **Run workflow** → **Run workflow**.
+---
 
-### Step 6: Open your site
+## 📷 Qualcomm AI Camera
 
-- After the workflow finishes (green check on the Actions tab), your site will be at:
-  - **https://saurabh-nishad.github.io/portfolio/**  
-  (if the repo name is `portfolio`; otherwise use your repo name instead of `portfolio`).
+Computer Vision Platform
 
-### If your repository name is not `portfolio` (or you see bare text, no CSS)
+- Face Detection
+- Face Recognition
+- OpenCV
+- Linux
+- AI Pipeline
+- Edge AI
 
-- The site URL will be `https://<username>.github.io/<your-repo-name>/`.
-- **BASE_PATH must match your repo name** or CSS/JS won’t load (you’ll see plain text only).
-- This workflow now derives `BASE_PATH` automatically from the GitHub repository name, so you usually do not need to edit it manually.
+---
 
-## Resume
+## 🚗 Automotive Diagnostics
 
-The "Download Resume" button serves `public/resume.pdf`. Replace it with your own PDF or update the link in the Hero and Contact components if you use a different path.
+- CAN
+- OBDII
+- Vehicle Analytics
+- AI-assisted Diagnostics
 
-## Contact form
+---
 
-The contact form opens the default mail client with a pre-filled email. To use a form backend (e.g. Formspree, Netlify Forms), replace the `handleSubmit` logic in `components/Contact.tsx` with a POST to your endpoint.
+# 🛠 Tech Stack
+
+## Embedded
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+
+## AI
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
+
+STM32Cube.AI • TensorFlow Lite • TinyML • Picovoice • OpenCV
+
+## Embedded Platforms
+
+STM32 • Nordic nRF • ESP32 • Qualcomm Snapdragon • Qualcomm QCS6490
+
+## Operating Systems
+
+Linux • Buildroot • Zephyr • FreeRTOS
+
+## Connectivity
+
+BLE • Wi-Fi • GSM • LTE • MQTT • CAN • OBDII
+
+---
+
+# 📊 GitHub Statistics
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/saurabh-nishad/saurabh-nishad/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula" height="170"/>
+
+<img src="https://raw.githubusercontent.com/saurabh-nishad/saurabh-nishad/languages-output/languages.svg?layout=compact&theme=dracula" height="170"/>
+
+</div>
+
+---
+
+# 🌱 2026 Learning Goals
+
+- Qualcomm AI Engine
+- Embedded LLMs
+- AI Camera Pipeline
+- Embedded Linux Drivers
+- ROS2
+- NVIDIA Jetson
+- Edge Robotics
+- Vision Transformers
+- Embedded Rust
+
+---
+
+# 🎯 Open Source Interests
+
+- Embedded Firmware
+- Zephyr RTOS
+- Linux Device Drivers
+- AI on MCU
+- AI Cameras
+- STM32
+- Nordic nRF
+- Automotive
+- TinyML
+
+---
+
+# 📺 Tech Content
+
+I regularly share projects on YouTube:
+
+**Building Real Products**
+
+- AI Camera
+- GPS Tracker
+- STM32
+- Embedded Linux
+- Edge AI
+- Reverse Engineering
+- IoT
+
+👉 https://www.youtube.com/@techmonk_007
+
+---
+
+# 🤝 Let's Connect
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/saurabh-nishad/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="https://www.youtube.com/@techmonk_007">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube"/>
+</a>
+
+<a href="https://saurabh-nishad.github.io/saurabh_portfolio/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+> "Building intelligent products where Embedded Systems meet Artificial Intelligence."
+
+</p>
+
+---
+
+<img src="https://raw.githubusercontent.com/saurabh-nishad/saurabh-nishad/snake-output/snake.svg"/>
